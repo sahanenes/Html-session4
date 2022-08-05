@@ -1,0 +1,26 @@
+.container{
+background-color: blue;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+.div1{
+background-color: brown;
+width:150px;
+height: 150px;
+}
+.div2{
+
+background-color: chartreuse;
+width:150px;
+height: 150px;
+border: 3px solid blue;
+/* margin: 10px; */
+padding: 20px;
+}
+.div3{
+background-color: darkgreen;
+width:150px;
+height: 150px;
+}

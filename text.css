@@ -1,0 +1,36 @@
+#par1{
+color: blue;
+text-align: center;
+text-decoration: line-through;
+text-transform: capitalize;
+text-indent: 2rem;
+text-shadow: 3px 3px 5px red;
+
+}
+#par2{
+color: rgba(255, 0, 0, 1);
+text-align: end;
+text-decoration: double;
+text-transform: uppercase;
+text-indent: 1rem;
+direction: rtl;
+}
+#par3{
+color: hsl(0, 100% , 50%);
+text-align: justify;
+text-decoration: overline;
+text-transform: none;
+letter-spacing: 2px;
+}
+#par4{
+color:blueviolet;
+text-align: right;
+text-decoration: underline;
+letter-spacing: 9px;
+line-height: 4px;
+}
+#par5{
+color:darkorange;
+text-align: unset;
+font-family: 'Alumni Sans Inline One', cursive;
+}
