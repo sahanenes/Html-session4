@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Welcome to Clarusway</h1>
+    <form action="result.html">
+      <label for="name">Adinizi Giriniz:</label>
+      <input type="text" name="isim" id="name" placeholder="Enes" />
+      <br />
+      <label for="1name">Soyadinizi Girin:</label>
+      <input
+        type="text"
+        name="Soyad"
+        id="1name"
+        placeholder="sahan"
+        value="sahan"
+      />
+      <div>
+        <label for="sifre">Parolanizi giriniz</label>
+        <input type="password" name="Girilen Parola" id="sifre" />
+      </div>
+      <div>
+        <p>Cinsiyetinizi Giriniz:</p>
+        <label for="Erkek">Erkek</label>
+        <input type="radio" name="cinsiyet" id="gender1" value="Erkek" />
+        <label for="gender2">Kadin</label>
+        <input
+          type="radio"
+          name="cinsiyet"
+          id="gender2"
+          value="Kadin"
+          checked
+        />
+      </div>
+
+      <div>
+        <p>Favori hayvaninizi secin:</p>
+        <label for="Panda">Panda</label>
+        <input type="checkbox" name="hayvan1" id="Panda" value="Panda" />
+        <label for="">balik</label>
+        <input type="checkbox" name="hayvan2" value="balik" id="balik" />
+        <label for="horse">unicorn</label>
+        <input
+          type="checkbox"
+          id="horse"
+          name="hayvan3"
+          value="unicorn"
+          checked
+        />
+      </div>
+      <div>
+        <label for="age">Yasinizi Girin:</label>
+        <input type="number" name="Girilen yas" id="age" min="18" max="99999" />
+      </div>
+      <div>
+        <label for="search">ara</label>
+        <input type="search" id="search" name="aranan kelime" />
+      </div>
+      <div>
+        <label for="renk"></label>
+        <input type="color" name="secilen renk" id="renk" />
+      </div>
+      <div>
+        <label for="tarih">Tarih secin</label>
+        <input type="date" name="tarih secimi" id="tarih">
+
+      </div>
+      <div>
+        <label for="email">email girin</label>
+        <input type="email" name="girilen-email" id="email">
+
+      </div>
+      <div>
+        <label for="dosya">dosya sec</label>
+        <input type="file" name="secilen dosya" id="dosya">
+      </div>
+      <label for="phone">telefon numarasi</label>
+      <input type="tel" name="telefon" id="phone">
+
+      <div>
+        <label for="select">Hangi tatliyi istersiniz ?</label>
+        <br>
+        <select name="tatli" id="select"  multiple>
+            <option value="sutlac">sutlac</option>
+            <option value="keskul">keskul</option>
+            <option value="asure" selected>asure</option>
+        </select>
+      </div>
+      <div>
+        <label for="yorum">yorum</label>
+        <textarea name="12" id="yorum" cols="30" rows="10"></textarea>
+      </div>
+        <div>
+            <fieldset>
+                <legend>super</legend>
+                <input type="text" > 
+                <label for="">isim</label>
+            </fieldset>
+
+        </div>
+      <br /><br /><br /><br />
+      <input type="submit" value="gonder" /><br />
+      <input type="reset" value="sifirla" />
+    </form>
+  </body>
+</html>
